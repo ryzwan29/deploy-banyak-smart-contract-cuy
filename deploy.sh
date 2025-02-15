@@ -8,7 +8,7 @@ YELLOW='\033[1;33m'
 RESET='\033[0m'
 
 clear
-echo -e "${BLUE}Gabung di channel Telegram untuk update dan bantuan: @Ryddd29 | BANG KLAW ERROR COBA FEEDBACK YACHH, GWEJH LUPA SIMPEN BOTNYAH BJIERR!!😂😂😂${RESET}"
+echo -e "${BLUE}@Ryddd29 | BANG KLAW ERROR COBA FEEDBACK YACHH, GWEJH LUPA SIMPEN BOTNYAH BJIERR!!😂😂😂${RESET}"
 
 sleep 5
 
@@ -17,8 +17,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit
 
 # Tampilkan logo
-curl -s https://raw.githubusercontent.com/choir94/Airdropguide/refs/heads/main/logo.sh | bash
-sleep 5  # Pause 5 detik untuk menampilkan logo
 
 # Fungsi instalasi dependensi
 install_dependencies() {
@@ -66,8 +64,8 @@ input_required_details() {
 
     # Input private key
     read -p "Masukkan Private Key Anda: " PRIVATE_KEY
-
-    # Input RPC URL
+    
+        # Input RPC URL
     read -p "Masukkan RPC URL: " RPC_URL
 
     # Input Explorer URL
@@ -152,4 +150,4 @@ deploy_contract
 
 # Pesan akhir
 echo -e "${YELLOW}-----------------------------------${RESET}"
-echo -e "${BLUE}Gabung di channel Telegram untuk update dan bantuan: @Ryddd29 | BANG KLAW ERROR COBA FEEDBACK YACHH, GWEJH LUPA SIMPEN BOTNYAH BJIERR!!${RESET}"
+echo -e "${BLUE}@Ryddd29 | BANG KLAW ERROR COBA FEEDBACK YACHH, GWEJH LUPA SIMPEN BOTNYAH BJIERR!!😂😂😂${RESET}"
