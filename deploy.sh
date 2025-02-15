@@ -7,6 +7,11 @@ RED='\033[0;31m'
 YELLOW='\033[1;33m'
 RESET='\033[0m'
 
+clear
+echo -e "${BLUE}Gabung di channel Telegram untuk update dan bantuan: @Ryddd29 | BANG KLAW ERROR COBA FEEDBACK YACHH, GWEJH LUPA SIMPEN BOTNYAH BJIERR!!😂😂😂${RESET}"
+
+sleep 5
+
 # Direktori skrip saat ini
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit
